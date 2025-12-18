@@ -1,5 +1,6 @@
 import streamlit as st
 st.title("Моето първо Streamlit приложение")
 name = st.text_input("Как се казваш?")
-if name:
-   st.write(f"Здравей, {name}!")
+age = st.num_input("На колко години си?")
+if name && age:
+   st.write(f"Здравей, {name}! Ти си на {age} години!")
